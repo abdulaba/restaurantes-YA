@@ -7,6 +7,4 @@ class User < ApplicationRecord
   # Asociaciones
   has_many :restaurants 
 
-  # Validaciones
-  validates :name, :address, presence: true
 end
